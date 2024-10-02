@@ -27,7 +27,7 @@
     </div>
     
     <div class="pb-10 pt-10 flex justify-center items-center">
-        <x-card title="Contacto" class="w-[40%] bg-[#803134] text-white" shadow separator>
+        <x-card title="Contacto" class="w-[40%] bg-[#818181] text-white" shadow separator>
             <div>
                 <div class="py-1">
                     <x-input label="Tu nombre" icon="o-user" class="text-black py-3" />
