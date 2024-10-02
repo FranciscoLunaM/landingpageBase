@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Principal;
 use App\Livewire\Welcome;
 use Illuminate\Support\Facades\Route;
 
@@ -14,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Welcome::class);
+Route::get('/', Principal::class);
