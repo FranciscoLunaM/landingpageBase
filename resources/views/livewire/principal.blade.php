@@ -7,8 +7,10 @@
                 <h2 class="text-7xl	font-medium mb-3	">Con cada instante</h2>
                 <h3 class="font-light text-3xl	">joyas que cuentan tu historia</h3>
 
-                <div name="media" class="pt-5">
-                    <a class="pr-5" href="">#</a>
+                <div name="media" class="pt-5 flex">
+                    <a>
+                        @svg('bi-facebook')
+                      </a>
                     <a class="pr-5" href="">#</a>
                     <a class="pr-5" href="">#</a>
                     <a class="pr-5" href="">#</a>
@@ -21,29 +23,31 @@
     </div>
 
     
-    <div class="w-full flex justify-center items-center pt-36 pb-36 hover:bg-slate-500 ease-in duration-500">
+    <div class="w-full flex justify-center items-center pt-36 pb-36 hover:bg-slate-300 ease-in duration-500">
         <button class="	" ><img class="h-[150px]" src="{{URL('images/logo.png')}}" alt=""></button>
     </div>
 
     <div class="w-full flex flex-col justify-center items-center py-10 ">
-        <div class="align-center justify-center text-center "><h1 class="text-7xl text-white font-medium ">Nuestros</h1> <h3 class="text-white text-4xl">Productos</h3></div>
-        <div class="flex items-center w-[95%] justify-between pt-10">
-            <div>
-                <img src="{{URL('images/joyeria1.png')}}" alt="Card Preview" class="rounded-2xl shadow-2xl	shadow-black w-[550px] h-[300px] hover:scale-105 ease-in duration-300">
+        <div class="align-center justify-center text-center ">
+            <h1 class="text-7xl text-white font-medium ">Nuestros</h1> <h3 class="text-white text-4xl">Productos</h3>
+        </div>
+        <div class="flex items-center w-[95%] pt-10 flex-col py-5 lg:flex-row lg:justify-between ">
+            <div class="w-full flex items-center justify-center lg:w-[100%] lg:py-0">
+                <img src="{{URL('images/joyeria1.png')}}" alt="Card Preview" class="rounded-2xl shadow-2xl	shadow-black w-[90%]  hover:scale-105 ease-in duration-300">
             </div>
             
-            <div >
-                <img src="{{URL('images/joyeria2.png')}}" alt="Card Preview" class="rounded-2xl shadow-2xl	shadow-black w-[550px] h-[300px] hover:scale-105 ease-in duration-300">
+            <div class="w-full flex items-center justify-center py-5 lg:w-[90%] lg:py-0">
+                <img src="{{URL('images/joyeria2.png')}}" alt="Card Preview" class="rounded-2xl shadow-2xl	shadow-black w-[90%]  hover:scale-105 ease-in duration-300">
             </div>
-            <div >
-                <img src="{{URL('images/joyeria3.png')}}" alt="Card Preview" class="rounded-2xl shadow-2xl	shadow-black w-[550px] h-[300px] hover:scale-105 ease-in duration-300">
+            <div  class="w-full flex items-center justify-center py-5 lg:w-[90%] lg:py-0">
+                <img src="{{URL('images/joyeria3.png')}}" alt="Card Preview" class="rounded-2xl shadow-2xl	shadow-black w-[90%]  hover:scale-105 ease-in duration-300">
             </div>
         </div>
     </div>
     
-    <div class="pb-10 pt-10 flex justify-center items-center flex-col mx-[20%] ">
+    <div class="pb-10 pt-10 flex justify-center items-center flex-col lg:mx-[20%] ">
         <h1 class="text-7xl text-white font-medium italic">Contacto</h1>
-            <div class="items-center justify-center w-[50%]">
+            <div class="items-center justify-center w-full lg:w-[50%] ">
                 <div class="py-1  ">
                     <x-input placeholder="Tu nombre" icon="o-user" class="text-white  bg-slate-700 border-[#1f242d]	" />
                 </div >
